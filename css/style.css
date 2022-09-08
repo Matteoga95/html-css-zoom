@@ -32,7 +32,6 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin: 50px auto
-
 }
 
 .view_bt {
@@ -83,8 +82,9 @@ body {
 .l_flex {
     display: flex;
     align-items: flex-start;
+    justify-content: flex-start;
     padding: 10px 15px;
-    
+
 }
 
 .r_flex {
@@ -103,20 +103,27 @@ body {
     padding: 10px 15px;
 }
 
+.fa-caret-up {
+    font-size: medium;
+    padding-top: 10px;
+
+
+}
 
 /* #endregion Utility */
 
 
 /* #region Main */
 
-.bt_upper{
+.bt_upper {
     background-color: #4a4a4a;
     color: white;
     border-radius: 5px;
     padding: 5px 5px;
 }
+
 .upper_commands {
-    
+
     position: absolute;
     right: 50px;
     top: 20px;
@@ -124,7 +131,7 @@ body {
 }
 
 .upper_ico {
-   font-size: medium;
+    font-size: medium;
 }
 
 /* #endregion Main */
@@ -146,21 +153,20 @@ footer i {
     text-align: center;
     width: 100%;
 }
-.card{
+
+.card {
     padding: 0 20px;
+    color: white;
+
+}
+
+.card_ico {
+
     display: flex;
     justify-content: center;
 }
-.card_ico {
-    color: white;
-}
-
-.fa-caret-up {
-    font-size: medium;
-    padding-top: 10px;
 
 
-}
 
 .fa-share-from-square {
     color: greenyellow;
@@ -175,7 +181,7 @@ footer i {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding:0 10px;
+    padding: 0 10px;
 }
 
 /* #endregion Footer */
