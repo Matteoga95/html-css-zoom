@@ -148,24 +148,18 @@ footer i {
 }
 .card{
     padding: 0 20px;
+    display: flex;
+    justify-content: center;
 }
 .card_ico {
     color: white;
-   display: inline;
-
 }
 
 .fa-caret-up {
     font-size: medium;
     padding-top: 10px;
 
-}
 
-footer .fa-solid {
-   /* position: absolute;
-   top: 10%;
-   left: 50%;
-   transform: translate(-50%, -100%); */
 }
 
 .fa-share-from-square {
