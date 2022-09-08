@@ -113,7 +113,7 @@ body {
     background-color: #4a4a4a;
     color: white;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 .upper_commands {
     
@@ -124,8 +124,7 @@ body {
 }
 
 .upper_ico {
-    height: 10px;
-    width: 10px;
+   font-size: medium;
 }
 
 /* #endregion Main */
@@ -149,6 +148,7 @@ footer i {
 
 .card_ico {
     color: white;
+    position: relative;
 
 }
 
@@ -158,9 +158,11 @@ footer i {
 
 }
 
-.fa-solid {
-    padding-left: 5px;
-    padding-bottom: 3px;
+footer .fa-solid {
+   /* position: absolute;
+   top: 10%;
+   left: 50%;
+   transform: translate(-50%, -100%); */
 }
 
 .fa-share-from-square {
