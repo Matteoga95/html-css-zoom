@@ -1,64 +1,117 @@
 /* #region Common */
 
-*{
+* {
     padding: 0;
     margin: 0;
 
 }
 
-i{
+body i {
     display: inline;
     color: white;
 }
-body{
+
+footer i {
+    display: block;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+body {
     background-color: black;
 }
-#site_footer{
+
+#site_footer {
     position: fixed;
     bottom: 0;
-    height: 80px;
-    background-color:#222222;
+    height: 70px;
+    background-color: #222222;
     width: 100vw;
 }
+
 /* #endregion Common */
 
 
 /* #region Utility */
-.container{
+.container {
     width: 90%;
     max-width: 100vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    margin: 20px auto ;
+    margin: 20px auto;
 
 }
 
-.view_bt{
+.view_bt {
     width: 7%;
     padding: 1px;
 }
-.bt_white{
+
+.bt_white {
     color: white;
     background-color: #4a4a4a;
     border-radius: 5px;
 }
 
-.pic_cam{
+.pic_cam {
     padding: 5px;
-position: relative;
+    position: relative;
 }
 
-.pic_bg{
+.row {
+    display: flex;
+    flex: wrap;
+    gap: 1rem
+}
+
+.pic_bg {
     position: absolute;
     bottom: 10px;
     left: 5px;
     height: 20px;
-    width: 120px;    
+    width: 120px;
     background-color: rgba(128, 128, 128, 0.8);
-    color: white;   
-    padding-left: 3px;   
+    color: white;
+    padding-left: 3px;
+}
+
+.col-4 {
+    width: calc(100% / 12 * 4);
+    display: flex;
+
+}
+
+.col-8 {
+    width: calc(100% / 12 * 8);
+    display: flex;
+}
+
+
+.l_flex {
+    display: flex;
+    align-items: flex-start;
+
+    padding: 10px 15px;
+}
+
+.r_flex {
+    display: flex;
+
+    justify-content: flex-end;
+    
+    align-items: center;
+
+    padding: 10px 15px;
+}
+
+.c_flex {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 10px 15px;
 }
 
 
@@ -71,5 +124,38 @@ position: relative;
 
 
 /* #region Footer */
+
+.card_ico {
+    color: white;
+
+}
+
+.fa-caret-up {
+    font-size: medium;
+    padding-top: 10px;
+
+}
+
+.fa-solid {
+    padding-left: 5px;
+    padding-bottom: 3px;
+    ;
+
+}
+
+.fa-share-from-square {
+    color: greenyellow;
+
+}
+
+.end_square {
+
+    background-color: #4a4a4a;
+    color: red;
+    align-self: flex-end;
+    height: 100%;
+    margin: 0;
+    padding: 0 15px;
+}
 
 /* #endregion Footer */
